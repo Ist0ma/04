@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace _04._2
 {
-    interface IPlayable
-    {
+    public interface IPlayable
+     {
         void Play();
         void Pause();
         void Stop();
-    }
+     }
 }
